@@ -8,9 +8,9 @@ class VehicleManager extends VehicleBase implements VehicleActions {
     use FileHandler;
 
     public function addVehicle($data) {
-        $vehicle = $this-> readFile();
-        $vehicle[] = $data;
-        $this->writeFile($vehicle);
+        $vehicles = $this-> readFile();
+        $vehicles[] = $data;
+        $this->writeFile($vehicles);
         
 
 
@@ -18,7 +18,11 @@ class VehicleManager extends VehicleBase implements VehicleActions {
     }
 
     public function editVehicle($id, $data) {
-        
+        $vehicles = $this-> readFile();
+        if(isset($vehicles[$id])) {
+            $vehicles[$id] = $data;
+            $this->writeFile($vehicles);
+        }
     }
 
     public function deleteVehicle($id) {

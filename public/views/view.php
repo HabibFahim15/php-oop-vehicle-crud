@@ -1,29 +1,62 @@
-<?php include './header.php'; ?>
+<?php
 
-<div class="container d-flex align-items-center justify-content-center min-vh-100">
 
-    <div class="card p-3 shadow-sm" style="max-width: 900px;">
-        <div class="row g-0">
-            <div class="col-md-6 d-flex align-items-center">
-                <img src="https:\/\/admin.sawaribd.com\/storage\/product_image\/CjjYR0kuJDUIvF6JY15IeKVYJ19WA5nGzik0tJBe.jpg" class="img-fluid rounded-start" alt="Tesla Model S">
-            </div>
+require_once '../../app/classes/VehicleManager.php';
+$vehicleManager = new VehicleManager("","","","");
+$vehicles = $vehicleManager->getVehicles();
 
-            <div class="col-md-6">
-                <div class="card-body">
-                    <h1 class="card-title">Tesla Model S</h1>
-                    <p class="card-text text-muted">Electric Sedan</p>
-                    <p class="card-text mt-3">A beautifully designed, all-electric sedan with incredible performance, range, and advanced technology.</p>
+$id = $_GET['id'] ?? null;
 
-                    <div class="my-4">
-                        <span class="h2 fw-bold">$79,990</span>
-                    </div>
+if($id === null){
+    header("Location: index.php");
+    exit;
+}
 
-                    <div class="d-grid gap-2">
-                        <a href="#" class="btn btn-primary btn-lg">Buy Now</a>
-                        <a href="#" class="btn btn-outline-secondary btn-lg">Add to Cart 🛒</a>
-                    </div>
+$vehicles = $vehicleManager->getVehicles();
+
+$vehicle = $vehicles[$id] ?? null;
+
+if($vehicle === null){
+    header("Location: index.php");
+    exit;
+}
+
+include './header.php'; 
+
+?>
+
+<div style=" background-color: #dae7f3ff;" class="py-5">
+<div class="container py-5">
+
+    <div class="card shadow-lg border-0 rounded-4 mx-auto" style="max-width: 34rem;">
+        
+        <img src="<?= htmlspecialchars($vehicle['image']) ?>" class="card-img-top" alt="<?= htmlspecialchars($vehicle['name']) ?>">
+        
+        <div class="card-body p-4">
+            
+            <div class="mb-4">
+                <div class="d-flex justify-content-between align-items-center">
+                    <strong class="text-muted">Name:</strong>
+                    <span class="fs-4 fw-bold"><?= htmlspecialchars($vehicle['name']) ?></span>
                 </div>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                    <strong class="text-muted">Type:</strong>
+                    <span class="fs-5"><?= htmlspecialchars($vehicle['type']) ?></span>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-between align-items-center">
+                    <strong class="text-muted">Price:</strong>
+                    <span class="fs-3 fw-bolder text-primary">$<?= htmlspecialchars($vehicle['price']) ?></span>
+                </div>
+            </div>
+            
+            <div class="d-grid gap-2">
+                <a href="#" class="btn btn-primary btn-lg fw-semibold">Buy Now</a>
+                <a href="#" class="btn btn-outline-dark btn-lg fw-semibold">Add to Cart 🛒</a>
             </div>
         </div>
     </div>
+
+</div>
 </div>

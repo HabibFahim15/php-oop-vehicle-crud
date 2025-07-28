@@ -1,8 +1,56 @@
-{
-    "2": {
-        "name": "R15",
-        "type": "Motorcycle",
-        "price": "4999",
-        "image": "https:\/\/admin.sawaribd.com\/storage\/product_image\/CjjYR0kuJDUIvF6JY15IeKVYJ19WA5nGzik0tJBe.jpg"
+[
+    {
+        "name": "This is For Test",
+        "type": "Test",
+        "price": "000000000000000000",
+        "image": "https:\/\/cdn-xy.drivek.com\/eyJidWNrZXQiOiJkYXRhay1jZG4teHkiLCJrZXkiOiJjb25maWd1cmF0b3ItaW1ncy9jYXJzL2VzL29yaWdpbmFsL1RPWU9UQS9DT1JPTExBLVNFREFOLzQ0MTI5X1NFREFOLTQtRE9PUlMvdG95b3RhLWNvcm9sbGEtc2VkYW4tZnJvbnQtdmlldy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEwMjQsImhlaWdodCI6bnVsbCwiZml0IjoiY292ZXIifX19"
+    },
+    {
+        "name": "Ford F-150",
+        "type": "Pickup Truck",
+        "price": "37000",
+        "image": "https:\/\/cdn.arstechnica.net\/wp-content\/uploads\/2022\/05\/F-150-Lightning-16-scaled.jpg"
+    },
+    {
+        "name": "Honda CR-V",
+        "type": "SUV",
+        "price": "30000",
+        "image": "https:\/\/honda-mydinh.com.vn\/wp-content\/uploads\/2020\/09\/Ngoai-that-honda-crv-L-AWD-2024-38.jpg"
+    },
+    {
+        "name": "Tesla Model Y",
+        "type": "Electric SUV",
+        "price": "45000",
+        "image": "https:\/\/www.edmunds.com\/assets\/m\/cs\/cms\/030987c2-78ad-446c-920d-0235a13d2977\/2026-tesla-model-y-performance_1280.jpg"
+    },
+    {
+        "name": "Jeep Wrangler",
+        "type": "Off-road SUV",
+        "price": "32000",
+        "image": "https:\/\/hips.hearstapps.com\/hmg-prod\/images\/2024-jeep-wrangler114-649ade7362678.jpg"
+    },
+    {
+        "name": "BMW 3 Series",
+        "type": "Luxury Sedan",
+        "price": "45000",
+        "image": "https:\/\/parkers-images.bauersecure.com\/wp-images\/174840\/675x450\/bmw_3_series_053.jpg"
+    },
+    {
+        "name": "Toyota Prius",
+        "type": "Hybrid",
+        "price": "28000",
+        "image": "https:\/\/www.topgear.com\/sites\/default\/files\/2024\/10\/1-Toyota-Prius-review-2024-UK.jpg"
+    },
+    {
+        "name": "Honda Civic",
+        "type": "Compact Sedan",
+        "price": "24000",
+        "image": "https:\/\/www.thecarexpert.co.uk\/wp-content\/uploads\/2019\/04\/Honda-Civic-2018-wallpaper-2133x1200-cropped.jpeg"
+    },
+    {
+        "name": "Porsche 911",
+        "type": "Sports Car",
+        "price": "115000",
+        "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSMWThSvIZMkdOI--Ehdlk3rhr-msvz7Q2Jww&s"
     }
-}
+]

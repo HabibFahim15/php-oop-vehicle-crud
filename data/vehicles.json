@@ -1,1 +1,20 @@
-
+[
+    {
+        "name": "Vehicle 1",
+        "type": "Type 1",
+        "price": 1000,
+        "image": "https:\/\/example.com\/image1.jpg"
+    },
+    {
+        "name": "Vehicle 2",
+        "type": "Type 2",
+        "price": 2000,
+        "image": "https:\/\/example.com\/image2.jpg"
+    },
+    {
+        "name": "luffy",
+        "type": "Motorcycle",
+        "price": "149",
+        "image": "https:\/\/static.toiimg.com\/photo\/100099661.cms"
+    }
+]

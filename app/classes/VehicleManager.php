@@ -8,7 +8,13 @@ class VehicleManager extends VehicleBase implements VehicleActions {
     use FileHandler;
 
     public function addVehicle($data) {
+        $vehicle = $this-> readFile();
+        $vehicle[] = $data;
+        $this->writeFile($vehicle);
         
+
+
+
     }
 
     public function editVehicle($id, $data) {
@@ -20,7 +26,7 @@ class VehicleManager extends VehicleBase implements VehicleActions {
     }
 
     public function getVehicles() {
-       
+       return $this->readFile();
     }
 
     // Implement abstract method

@@ -1,20 +1,20 @@
 [
     {
-        "name": "Vehicle 1",
-        "type": "Type 1",
-        "price": 1000,
-        "image": "https:\/\/example.com\/image1.jpg"
-    },
-    {
-        "name": "Vehicle 2",
-        "type": "Type 2",
-        "price": 2000,
-        "image": "https:\/\/example.com\/image2.jpg"
+        "name": "R15",
+        "type": "Mobile",
+        "price": "149",
+        "image": "https:\/\/i2.wp.com\/lovehardtraveloften.com\/wp-content\/uploads\/2019\/10\/pink-beach-visit-komodo-national-park-from-bali.jpg?fit=2000%2C1332"
     },
     {
         "name": "luffy",
         "type": "Motorcycle",
-        "price": "149",
-        "image": "https:\/\/static.toiimg.com\/photo\/100099661.cms"
+        "price": "260000",
+        "image": "https:\/\/media.istockphoto.com\/id\/466842820\/photo\/petronas-towers.jpg?s=612x612&w=0&k=20&c=X_Kl-W_ulJEzjvaaT8gRNTQWHboyLKaedXol5EPhGdI="
+    },
+    {
+        "name": "Samsung A13",
+        "type": "Mobile",
+        "price": "1599",
+        "image": "https:\/\/admin.sawaribd.com\/storage\/product_image\/CjjYR0kuJDUIvF6JY15IeKVYJ19WA5nGzik0tJBe.jpg"
     }
 ]

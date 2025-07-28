@@ -1,26 +1,8 @@
-[
-    {
-        "name": "Vietnam",
-        "type": "Mobile",
-        "price": "1490",
-        "image": "https:\/\/static.toiimg.com\/photo\/100099661.cms"
-    },
-    {
-        "name": "singapore",
-        "type": "Motorcycle",
-        "price": "2600",
-        "image": "https:\/\/media.istockphoto.com\/id\/466842820\/photo\/petronas-towers.jpg?s=612x612&w=0&k=20&c=X_Kl-W_ulJEzjvaaT8gRNTQWHboyLKaedXol5EPhGdI="
-    },
-    {
+{
+    "2": {
         "name": "R15",
         "type": "Motorcycle",
-        "price": "459",
+        "price": "4999",
         "image": "https:\/\/admin.sawaribd.com\/storage\/product_image\/CjjYR0kuJDUIvF6JY15IeKVYJ19WA5nGzik0tJBe.jpg"
-    },
-    {
-        "name": "luffy",
-        "type": "Motorcycle",
-        "price": "199",
-        "image": "https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcT_N02TgpPG9ZPLjcyJcSxTtWgQ_G82RgeSWtvk58mdyH8Ww5Hs4Ig66CtdC9Ra_CVMNVs&usqp=CAU"
     }
-]
+}
